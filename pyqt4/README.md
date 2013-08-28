@@ -5,4 +5,5 @@ PyQt4 Code
 
 	deepin-preview Deepin New Features Preview 
 
+	pyterminalwidget A Terminal Based on PyQt4
 
