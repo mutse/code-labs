@@ -64,7 +64,7 @@ class QConsoleWidget(QTextEdit):
             accept = self.textCursor().position() >= self.fixedPosition
 
         if accept:
-            QTextEdit.keyPressEvent(event)
+            QTextEdit.keyPressEvent(self, event)
 
     def cursorPositionChanged(self):
         if self.textCursor().position() < self.fixedPosition:
